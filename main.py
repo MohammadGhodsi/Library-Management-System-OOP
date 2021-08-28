@@ -38,6 +38,12 @@ def main():
     while True:
         print('''################# Library Numbers #########
         
+        1.Display Book
+        2. Request Book
+        3.Return a Book
+
+        4.Exit
         
         
         ''')    
+        choice = int(input("Enter Your choice Number:"))
