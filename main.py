@@ -22,5 +22,10 @@ class Library:
 
 class Student:
     def requestedBook(self):
-        print("Enter the name of the Book you want:")
-        
+        print("Enter the name of the Book you want to Borrow:")
+        self.book = input()
+        return self.book
+    def returnedBook(self):
+        print("Enter the name of the Book you want to Return:")
+        self.book = input()
+        return self.book
