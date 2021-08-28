@@ -47,3 +47,16 @@ def main():
         
         ''')    
         choice = int(input("Enter Your choice Number:"))
+
+        if choice == 1 :
+            Library.display_available_books()
+        elif choice == 2 :
+            Library.lend_books(student.requestedBook())
+        elif choice == 3:
+            Library.lend_books(student.returnedBook())
+
+        elif choice == 4:
+            Library.exit()            
+
+      
+            
