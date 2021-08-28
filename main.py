@@ -18,8 +18,6 @@ class Library:
     def add_book(self , returnBook):
         self.availablebooks.append(returnBook)
         print("Thanks for returning the book!")
-
-
 class Student:
     def requestedBook(self):
         print("Enter the name of the Book you want to Borrow:")
@@ -58,5 +56,5 @@ def main():
         elif choice == 4:
             Library.exit()            
 
-      
+main()      
             
